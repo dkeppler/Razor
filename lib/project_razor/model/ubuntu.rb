@@ -265,11 +265,11 @@ module ProjectRazor
       end
 
       def kernel_path
-        "install/netboot/ubuntu-installer/amd64/linux"
+        "install/netboot/ubuntu-installer/#{@architecture}/linux"
       end
 
       def initrd_path
-        "install/netboot/ubuntu-installer/amd64/initrd.gz"
+        "install/netboot/ubuntu-installer/#{@architecture}/initrd.gz"
       end
 
       def config
