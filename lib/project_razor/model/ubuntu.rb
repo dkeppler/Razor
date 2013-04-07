@@ -261,7 +261,8 @@ module ProjectRazor
       end
 
       def hostname
-        "#{@hostname_prefix}#{@counter.to_s}"
+        #"#{@hostname_prefix}#{@counter.to_s}"
+        "#{@hostname_prefix}"
       end
 
       def kernel_path
