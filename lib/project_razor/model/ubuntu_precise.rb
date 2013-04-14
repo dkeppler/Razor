@@ -13,7 +13,7 @@ module ProjectRazor
         # Static config
         @hidden = false
         @name = "ubuntu_precise"
-        @description = "Ubuntu Precise Model (amd64)"
+        @description = "Ubuntu Precise Model amd64"
         # Metadata vars
         @hostname_prefix = nil
         # State / must have a starting state
